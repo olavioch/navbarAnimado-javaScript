@@ -3,7 +3,7 @@ body{
     padding: 0;
     display: flex;
     justify-content: space-between;
-    overflow-x: hidden;
+    overflow: hidden;
     background-image: url(https://th.bing.com/th/id/R05ea973730c7798ba433e26fd77a6fc4?rik=RH0k%2f5Ta4zdVFg&pid=ImgRaw);
     background-size: cover;
     background-position: center;
@@ -13,6 +13,7 @@ aside{
     background-color: rgb(0, 0, 0);
     transition: width 3s;
 }
+
 li{
     list-style: none;
     padding-top: 15px;
@@ -48,4 +49,13 @@ h1{
 .titulo{
     display: flex;
     align-items: center;
+}
+.aparecendo{
+    opacity: 1;
+    width: 100%;
+}
+.sumindo{
+   opacity :0 ;
+    width: 0%;
+    display: none;
 }

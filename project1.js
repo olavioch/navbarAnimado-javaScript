@@ -6,4 +6,12 @@ function fechar(){
         document.querySelector('#fechou').classList.add('abrindo');
         document.querySelector('#fechou').classList.remove('fechando');
     }
-}
+    if(document.querySelector('#titulo').classList.contains('aparecendo')){
+        document.querySelector('#titulo').classList.add('sumindo');
+        document.querySelector('#titulo').classList.remove('aparecendo');
+    }else{
+        document.querySelector('#titulo').classList.add('aparecendo');
+        document.querySelector('#titulo').classList.remove('sumindo');
+    }
+  }
+ 
